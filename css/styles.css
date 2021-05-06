@@ -574,6 +574,62 @@ p {
   fill: var(--main-body-color);
 }
 
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 93px;
+  padding-top: 12px;
+}
+
+.send {
+  margin-bottom: 20px;
+}
+
+.input-mail {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: var(--hero-background-color);
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 15px;
+}
+
+.footer-form-group {
+  display: flex;
+  align-items: center;
+}
+
+.button-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  min-width: 200px;
+  height: 50px;
+  background-color: var(--action-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.button-send-text {
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  color: var(--main-body-color);
+  letter-spacing: 0.03em;
+}
+
+.logo-send {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: var(--main-body-color);
+}
+
 /*portfolio*/
 
 .filter {
@@ -712,9 +768,10 @@ p {
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  min-width: 528px;
+  min-height: 581px;
   background-color: var(--main-body-color);
+  padding: 40px;
 
   position: absolute;
   top: 50%;
