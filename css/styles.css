@@ -69,6 +69,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .conteiner {
@@ -146,7 +147,7 @@ p {
   content: '';
   display: block;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
   height: 4px;
   background-color: var(--action-color);
